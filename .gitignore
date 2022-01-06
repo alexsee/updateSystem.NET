@@ -32,3 +32,5 @@ _ReSharper*/
 [Ll]atest
 UpdateSystem.snk
 Settings.dat
+/Source/packages/**
+/Source/.vs/**

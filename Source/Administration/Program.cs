@@ -29,7 +29,7 @@ namespace updateSystemDotNet.Administration {
 		[STAThread]
 		private static void Main(string[] args) {
 			Application.EnableVisualStyles();
-			Application.SetCompatibleTextRenderingDefault(false);
+			//Application.SetCompatibleTextRenderingDefault(false);
 			//Application.SetUnhandledExceptionMode(UnhandledExceptionMode.CatchException);
 			Application.Run(new UI.mainForm(args));
 		}
